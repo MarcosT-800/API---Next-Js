@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { Tags }  from "./Get";
-import AddTags from "./Post";
+import { AddTagUpdate } from "./NewPost";
 
 export default function Home() {
   return (
   <>
     <Tags />
-    <AddTags />
+    <AddTagUpdate />
   </>
   );
 }
